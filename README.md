@@ -10,7 +10,7 @@ These scripts form part of the ACACIA project and were created during a Master's
 ##### Input : 
 - preprocessed Spatial expression matrix, .csv
 - spots locations, .csv
-- histology img, .tiff
+- histology image, .tiff
   
 ##### Output : 
 - Spatial expression matrix with additional column = cluster annotation for each spot, results.h5ad
