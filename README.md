@@ -1,6 +1,6 @@
 # Deconvolution of 10X Visium Pancreatic cancer samples with SPADE
 
-These scripts form part of the ACACIA project and were created during a Master's internship with the Gene Expression and Oncogenesis team at the IGDR in Rennes, France. 
+These scripts form part of the ACACIA project and were created during a Master's internship with the Gene Expression and Oncogenesis team at IGDR in Rennes, France. 
 
 
 ### SpaGCN.py 
