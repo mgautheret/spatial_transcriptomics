@@ -1,4 +1,4 @@
-# Deconvolution of 10X Visium Pancreatic cancer samples with SPADE
+# Deconvolution of 10X Visium samples, with pie plot visualisation and co-localisation matrix
 
 These scripts form part of the ACACIA project and were created during a Master's internship with the Gene Expression and Oncogenesis team at IGDR in Rennes, France. 
 
@@ -8,7 +8,7 @@ These scripts form part of the ACACIA project and were created during a Master's
 
 [SpaGCN github repository](https://github.com/jianhuupenn/SpaGCN)
 ##### Input : 
-- preprocessed Spatial expression matrix, .csv
+- preprocessed Spatial expression matrix, .csv 
 - spots locations, .csv
 - histology image, .tiff
   
