@@ -32,5 +32,6 @@ These scripts form part of the ACACIA project and were created during a Master's
 
 #### Credits : 
 SpaGCN : 	Hu, J. et al. SpaGCN: Integrating gene expression, spatial location and histology to identify spatial domains and spatially variable genes by graph convolutional network. Nat. Methods 18, 1342–1351 (2021).
+
 SPADE : Lu, Y., Chen, Q. M. & An, L. SPADE: spatial deconvolution for domain specific cell-type estimation. Commun. Biol. 7, 469 (2024).
 
