@@ -37,6 +37,8 @@ These scripts form part of the ACACIA project and were created during a Master's
 - R version >= 4.0.0.
 - R packages: Biobase, rlist, caret, glmnet, tidyverse, NOISeq, EBImage
 
+Exemple with SPADE's author toy dataset is shown in ST_deconv_testdata.html
+
 ----
 #### Credits : 
 SpaGCN : 	Hu, J. et al. SpaGCN: Integrating gene expression, spatial location and histology to identify spatial domains and spatially variable genes by graph convolutional network. Nat. Methods 18, 1342–1351 (2021).
