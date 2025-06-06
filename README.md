@@ -20,7 +20,7 @@ These scripts form part of the ACACIA project and were created during a Master's
 - Python: 3.7.9
 - Python packages: pandas = 1.1.3, numpy = 1.20.2, python-igraph=0.8.3, torch=1.6.0,louvain=0.7.0, scipy = 1.5.2, scanpy = 1.6.0, anndata = 0.7.4, natsort = 7.0.1, sklearn = 0.23.3
 -----
-### deconv_SPADE.Rmd
+### ST_deconv_coloc.Rmd
 
 [SPADE github repository](https://github.com/YyLu5/SPADE)
 ##### Input : 
