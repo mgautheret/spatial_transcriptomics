@@ -37,7 +37,7 @@ These scripts form part of the ACACIA project and were created during a Master's
 - R version >= 4.0.0.
 - R packages: Biobase, rlist, caret, glmnet, tidyverse, NOISeq, EBImage
 
-Exemple with SPADE's author toy dataset is shown in ST_deconv_testdata.html
+Exemple with SPADE's authors toy dataset is shown in ST_deconv_testdata.html
 
 ----
 #### Credits : 
