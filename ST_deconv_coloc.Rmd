@@ -17,7 +17,7 @@ spatial_matrix<-[path to spatial matrix] #should be a seurat object containing s
 
 sc_reference<- [path to single cell expression matrix] #matrix should be an expressionSet class containing single cell gene expression and its metadata which contains annoted cell type (RDS format)
 
-all_markers<-[path to markers lists] #markers should be one list per cell type (RDS format)
+all_markers<-[path to markers lists] #markers should be one list of gene symbols per cell type (RDS format)
 
 tissue_position<-[path to barcode coordinates] #matrix should contain one row per barcode, with 2 columns : x_pixel coordinate and y_pixel coordinate (CSV format)
 
@@ -91,7 +91,7 @@ CTest=SPADE(
 ```
 
 
-```{r, integration of deconvolution results in each domain and visualisation}
+```{r, integration of deconvolution results in each domain}
 #CTest contains cell type proportion for each spatial domain (one layer per domain), all layers are integrated to create the deconvolution results matrix 
 all_rownames <- unlist(lapply(seq_len(nclust), function(i) rownames(CTest[[i]]))) #extract all rownames across all spatial domains
 all_colnames <- unique(unlist(lapply(CTest[1:nclust], colnames)))#extract all colnames across all spatial domains
