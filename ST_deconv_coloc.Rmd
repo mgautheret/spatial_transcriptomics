@@ -13,13 +13,13 @@ out_dir<-[path to output directory] #Directory where outputs should be stored
 
 sample_name<-[sample name] #string
 
-spatial_matrix<-[path to spatial matrix] #should be a seurat object (RDS format)
+spatial_matrix<-[path to spatial matrix] #should be a seurat object containing spatial expression and its metadata which must contains spots cluster annotation  (RDS format)
 
-sc_reference<- [path to single cell expression matrix] #matrix should be an expressionSet class contains single cell gene expression and its metadata which contains annoted cell type (RDS format)
+sc_reference<- [path to single cell expression matrix] #matrix should be an expressionSet class containing single cell gene expression and its metadata which contains annoted cell type (RDS format)
 
 all_markers<-[path to markers lists] #markers should be one list per cell type (RDS format)
 
-tissue_position<-[path to barcode coordinates] # matrix should contain one row per barcode, with 2 columns : x coordinate and y coordinate. (CSV format)
+tissue_position<-[path to barcode coordinates] #matrix should contain one row per barcode, with 2 columns : x_pixel coordinate and y_pixel coordinate (CSV format)
 
 nclust=[number of cluster identified within the sample] #nclust should be an integer
 
