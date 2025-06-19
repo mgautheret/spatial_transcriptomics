@@ -86,8 +86,7 @@ CTest=SPADE(
   scref=scref,
   sign_list=markers,
   loc=location,
-  ctData=CTperLayer, # the estimated cell type per domain
-  offset=10) # Offset is the value add on the threshold to binarize coefficient from lasso regression, if not provide by user, then use the mean of all coefficients
+  ctData=CTperLayer) # the estimated cell type per domain # Offset is the value add on the threshold to binarize coefficient from lasso regression, if not provide by user, then use the mean of all coefficients
 ```
 
 
